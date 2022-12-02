@@ -1,0 +1,29 @@
+{
+  "name": "practices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node api/server.js",
+    "start-dev": "node --watch api/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpmahato/node-practices.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lpmahato/node-practices/issues"
+  },
+  "homepage": "https://github.com/lpmahato/node-practices#readme",
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "16.0.3",
+    "ejs": "3.1.8",
+    "express": "4.18.2",
+    "mongoose": "6.7.5"
+  }
+}
